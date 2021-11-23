@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="13" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="513329" started-at="2021-11-22T18:41:34 IST" finished-at="2021-11-22T18:50:07 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="513329" started-at="2021-11-22T18:41:34 IST" finished-at="2021-11-22T18:50:07 IST">
+      <class name="com.mindtree.runner.BigSmallTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="setUpClass" is-config="true" duration-ms="204" started-at="2021-11-22T18:41:34 IST" finished-at="2021-11-22T18:41:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="29913" started-at="2021-11-22T18:41:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:42:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Opening the Browser and hitting the url"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Landing on webpage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="20803" started-at="2021-11-22T18:42:05 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:42:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is Signing In With Multiple Cradentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign In"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="19624" started-at="2021-11-22T18:42:26 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:42:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is Signing In With Multiple Cradentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign In"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="5869" started-at="2021-11-22T18:42:46 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:42:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is Signing In With Multiple Cradentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign In"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="63169" started-at="2021-11-22T18:42:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:43:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing the Personalized Gift Menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Persionalized Gift Menu"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="16738" started-at="2021-11-22T18:43:56 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:44:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["searching a product testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching Product"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="65772" started-at="2021-11-22T18:44:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:45:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing the Christmas Gifts Menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Explore Christmas Gift Menu"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="97961" started-at="2021-11-22T18:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:46:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing the Shop By Category Menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Explore Shop By Category Menu"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.mindtree.StepDefinations.ShopByCatagorySD.verify_that_item_added_in_wish_list(ShopByCatagorySD.java:71)
+at ✽.verify that item added in wish list(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/06ShopByCategory.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="23681" started-at="2021-11-22T18:46:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:47:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing the AllOfIt Menu of the Web site"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["AllOfIt Menu"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="35575" started-at="2021-11-22T18:47:21 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:47:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking wheather the products are present in Wishlist or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wish List"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 0, Size: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+at java.util.ArrayList.get(ArrayList.java:435)
+at com.mindtree.StepDefinations.WIshListSD.validate_wheather_product_is_present_or_no(WIshListSD.java:58)
+at ✽.Validate wheather product is present or not(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/08WishList.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="34002" started-at="2021-11-22T18:47:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:48:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing the Gift Card"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Gift Card"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="54109" started-at="2021-11-22T18:48:31 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:49:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Going to About Us section in the web page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["About US"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="runScenario" duration-ms="41351" started-at="2021-11-22T18:49:25 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-22T18:50:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing the Contact us"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact us"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.mindtree.runner.BigSmallTestRunner@5c072e3f]" name="tearDownClass" is-config="true" duration-ms="98" started-at="2021-11-22T18:50:07 IST" finished-at="2021-11-22T18:50:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.runner.BigSmallTestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

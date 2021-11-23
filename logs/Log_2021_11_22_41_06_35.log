@@ -1,0 +1,39 @@
+2021-11-22 18:41:38,775  INFO [main] HomePageSD:29 - Browser has been luanched
+2021-11-22 18:42:05,010  INFO [main] HomePageSD:38 - url hited
+2021-11-22 18:42:16,884  INFO [main] SignInSD:34 - clicked on sign button
+2021-11-22 18:42:16,886  INFO [main] SignInSD:42 - going to send data
+2021-11-22 18:42:17,040  INFO [main] SignInSD:46 -  entered
+2021-11-22 18:42:17,160  INFO [main] SignInSD:49 -  entered
+2021-11-22 18:42:26,160  INFO [main] SignInSD:57 - clicked on summit button
+2021-11-22 18:42:32,859  INFO [main] SignInSD:34 - clicked on sign button
+2021-11-22 18:42:32,860  INFO [main] SignInSD:42 - going to send data
+2021-11-22 18:42:33,161  INFO [main] SignInSD:46 - defenceaspirants87@gmail.com entered
+2021-11-22 18:42:33,355  INFO [main] SignInSD:49 - banti#4321 entered
+2021-11-22 18:42:46,109  INFO [main] SignInSD:57 - clicked on summit button
+2021-11-22 18:42:48,792  INFO [main] SignInSD:34 - clicked on sign button
+2021-11-22 18:42:48,793  INFO [main] SignInSD:42 - going to send data
+2021-11-22 18:42:48,970  INFO [main] SignInSD:46 - vrushualate1008@gmail.com entered
+2021-11-22 18:42:49,099  INFO [main] SignInSD:49 - Vrush@123 entered
+2021-11-22 18:42:52,383  INFO [main] SignInSD:57 - clicked on summit button
+2021-11-22 18:43:14,307  INFO [main] PersionalizedGiftSD:40 - clicked on Persionaized Gift Menu
+2021-11-22 18:43:24,499  INFO [main] PersionalizedGiftSD:51 - clicked on sort by button
+2021-11-22 18:43:38,835  INFO [main] PersionalizedGiftSD:59 - clicked on how to low options
+2021-11-22 18:43:55,811  INFO [main] PersionalizedGiftSD:75 - persionalized gift menu's item selected
+2021-11-22 18:44:12,384  INFO [main] HomePageSD:45 - product name has been sent to search box
+2021-11-22 18:44:12,920  INFO [main] HomePageSD:54 - list appeared of searched product
+2021-11-22 18:44:24,487  INFO [main] HomePageSD:40 - clicked on christmas menu
+2021-11-22 18:44:46,050  INFO [main] HomePageSD:56 - christmas gift added in cart
+2021-11-22 18:45:02,821  INFO [main] HomePageSD:71 - pop up appeared
+2021-11-22 18:45:18,956  INFO [main] HomePageSD:87 - christmas gift menu's item available in shopping cart
+2021-11-22 18:45:26,058  INFO [main] HomePageSD:40 - clicked on shop By catagory menu
+2021-11-22 18:46:52,020  INFO [main] HomePageSD:60 - clicked on add to wish
+2021-11-22 18:47:08,969  INFO [main] AllOfItSD:35 - clicked on all of it menu
+2021-11-22 18:47:21,207  INFO [main] AllOfItSD:48 - Title under All ot It is verified
+2021-11-22 18:47:45,553  INFO [main] WIshListSD:40 - clicked on wishlist menu
+2021-11-22 18:48:28,123  INFO [main] HomePageSD:36 - clicked on gift card button
+2021-11-22 18:48:31,189  INFO [main] HomePageSD:47 - gift card feature is working
+2021-11-22 18:49:25,324  INFO [main] AboutUsSD:33 - clicked on about us menu
+2021-11-22 18:49:25,574  INFO [main] AboutUsSD:42 - getting all info about website
+2021-11-22 18:50:06,185  INFO [main] ContactUsSD:37 - clicked on contact us
+2021-11-22 18:50:07,108  INFO [main] ContactUsSD:48 - all info added
+2021-11-22 18:50:07,154  INFO [main] ContactUsSD:58 - thank you for contacting us

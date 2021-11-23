@@ -1,0 +1,369 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/13/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 22 12:58:31 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24072 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is Signing In With Multiple Cradentials", "Sign In"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.HomePage.getSignIn(HomePage.java:19)
+	at com.mindtree.StepDefinations.SignInSD.click_on_signin_button(SignInSD.java:33)
+	at ?.click on SignIn button(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/02SignIn.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace597364637", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace597364637'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.HomePage.getSignIn(HomePage.java:19)
+	at com.mindtree.StepDefinations.SignInSD.click_on_signin_button(SignInSD.java:33)
+	at ?.click on SignIn button(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/02SignIn.feature:5)
+</pre></div></td>
+<td>0</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "searching a product testing", "Searching Product"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.SearchBoxPage.getSearchBox(SearchBoxPage.java:21)
+	at com.mindtree.StepDefinations.SearchProductSD.click_the_searchbox_and_send_prodcut_name_to_search_box(SearchProductSD.java:43)
+	at ?.Click the SearchBox and send prodcut name to search box(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/04SearchProduct.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace279781579", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace279781579'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.SearchBoxPage.getSearchBox(SearchBoxPage.java:21)
+	at com.mindtree.StepDefinations.SearchProductSD.click_the_searchbox_and_send_prodcut_name_to_search_box(SearchProductSD.java:43)
+	at ?.Click the SearchBox and send prodcut name to search box(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/04SearchProduct.feature:5)
+</pre></div></td>
+<td>5</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the Contact us", "Contact us"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.ContactUsPage.getContactUs(ContactUsPage.java:43)
+	at com.mindtree.StepDefinations.ContactUsSD.click_on_contactus_footer(ContactUsSD.java:36)
+	at ?.Click on ContactUs footer(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/11ContactUs.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace428245792", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace428245792'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.ContactUsPage.getContactUs(ContactUsPage.java:43)
+	at com.mindtree.StepDefinations.ContactUsSD.click_on_contactus_footer(ContactUsSD.java:36)
+	at ?.Click on ContactUs footer(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/11ContactUs.feature:5)
+</pre></div></td>
+<td>0</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is Signing In With Multiple Cradentials", "Sign In"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.HomePage.getSignIn(HomePage.java:19)
+	at com.mindtree.StepDefinations.SignInSD.click_on_signin_button(SignInSD.java:33)
+	at ?.click on SignIn button(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/02SignIn.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1527086220", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1527086220'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.HomePage.getSignIn(HomePage.java:19)
+	at com.mindtree.StepDefinations.SignInSD.click_on_signin_button(SignInSD.java:33)
+	at ?.click on SignIn button(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/02SignIn.feature:5)
+</pre></div></td>
+<td>0</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking wheather the products are present in Wishlist or not", "Wish List"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.WishListPage.getWishList(WishListPage.java:22)
+	at com.mindtree.StepDefinations.WIshListSD.click_on_the_wishlist_option_in_the_web_page(WIshListSD.java:39)
+	at ?.Click on the WishList option in the web page(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/08WishList.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1008612116", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1008612116'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.WishListPage.getWishList(WishListPage.java:22)
+	at com.mindtree.StepDefinations.WIshListSD.click_on_the_wishlist_option_in_the_web_page(WIshListSD.java:39)
+	at ?.Click on the WishList option in the web page(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/08WishList.feature:5)
+</pre></div></td>
+<td>3</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the Christmas Gifts Menu", "Explore Christmas Gift Menu"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.ChristmasGiftPage.getChristmas(ChristmasGiftPage.java:31)
+	at com.mindtree.StepDefinations.ChristmasGiftSD.click_on_the_chirstmas_gift_menu_on_the_website(ChristmasGiftSD.java:39)
+	at ?.click on the Chirstmas Gift Menu on the website(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/05ChristmasGift.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace740827140", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace740827140'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.ChristmasGiftPage.getChristmas(ChristmasGiftPage.java:31)
+	at com.mindtree.StepDefinations.ChristmasGiftSD.click_on_the_chirstmas_gift_menu_on_the_website(ChristmasGiftSD.java:39)
+	at ?.click on the Chirstmas Gift Menu on the website(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/05ChristmasGift.feature:6)
+</pre></div></td>
+<td>0</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Opening the Browser and hitting the url", "Landing on webpage"</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 96.0.4664.45 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-QPMSPL4&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x010BBDE3+2473443]
+	Ordinal0 [0x01056661+2057825]
+	Ordinal0 [0x00F62438+1057848]
+	Ordinal0 [0x00F8054A+1181002]
+	Ordinal0 [0x00F7C435+1164341]
+	Ordinal0 [0x00F79CAF+1154223]
+	Ordinal0 [0x00FA9ADF+1350367]
+	Ordinal0 [0x00FA974A+1349450]
+	Ordinal0 [0x00FA55AB+1332651]
+	Ordinal0 [0x00F82104+1188100]
+	Ordinal0 [0x00F82F59+1191769]
+	GetHandleVerifier [0x01242266+1549718]
+	GetHandleVerifier [0x012ED4A7+2250711]
+	GetHandleVerifier [0x0114718B+521403]
+	GetHandleVerifier [0x01146229+517465]
+	Ordinal0 [0x0105B79D+2078621]
+	Ordinal0 [0x0105FB58+2095960]
+	Ordinal0 [0x0105FC92+2096274]
+	Ordinal0 [0x01069541+2135361]
+	BaseThreadInitThunk [0x763EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77077A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77077A6E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at com.mindtree.reusableComponent.WebDriverHelper.launchingBrowser(WebDriverHelper.java:33)
+	at com.mindtree.StepDefinations.HomePageSD.open_the_browser(HomePageSD.java:28)
+	at ?.Open the Browser(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/01HomePage.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace500230084", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace500230084'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 96.0.4664.45 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-QPMSPL4&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x010BBDE3+2473443]
+	Ordinal0 [0x01056661+2057825]
+	Ordinal0 [0x00F62438+1057848]
+	Ordinal0 [0x00F8054A+1181002]
+	Ordinal0 [0x00F7C435+1164341]
+	Ordinal0 [0x00F79CAF+1154223]
+	Ordinal0 [0x00FA9ADF+1350367]
+	Ordinal0 [0x00FA974A+1349450]
+	Ordinal0 [0x00FA55AB+1332651]
+	Ordinal0 [0x00F82104+1188100]
+	Ordinal0 [0x00F82F59+1191769]
+	GetHandleVerifier [0x01242266+1549718]
+	GetHandleVerifier [0x012ED4A7+2250711]
+	GetHandleVerifier [0x0114718B+521403]
+	GetHandleVerifier [0x01146229+517465]
+	Ordinal0 [0x0105B79D+2078621]
+	Ordinal0 [0x0105FB58+2095960]
+	Ordinal0 [0x0105FC92+2096274]
+	Ordinal0 [0x01069541+2135361]
+	BaseThreadInitThunk [0x763EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77077A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77077A6E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at com.mindtree.reusableComponent.WebDriverHelper.launchingBrowser(WebDriverHelper.java:33)
+	at com.mindtree.StepDefinations.HomePageSD.open_the_browser(HomePageSD.java:28)
+	at ?.Open the Browser(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/01HomePage.feature:4)
+</pre></div></td>
+<td>3</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the AllOfIt Menu of the Web site", "AllOfIt Menu"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.AllOfItPage.getAllOfIt(AllOfItPage.java:19)
+	at com.mindtree.StepDefinations.AllOfItSD.click_on_the_allofit_option_from_the_menu_bar(AllOfItSD.java:34)
+	at ?.Click on the AllOfIt option from the menu bar(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/07AllOfIt.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1404834600", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1404834600'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.AllOfItPage.getAllOfIt(AllOfItPage.java:19)
+	at com.mindtree.StepDefinations.AllOfItSD.click_on_the_allofit_option_from_the_menu_bar(AllOfItSD.java:34)
+	at ?.Click on the AllOfIt option from the menu bar(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/07AllOfIt.feature:5)
+</pre></div></td>
+<td>0</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the Gift Card", "Gift Card"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.GitCardPage.getGiftCard(GitCardPage.java:19)
+	at com.mindtree.StepDefinations.GiftCardSD.click_on_the_gift_card_on_the_web_page(GiftCardSD.java:35)
+	at ?.Click on the Gift Card on the web page(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/09GiftCard.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2028036437", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2028036437'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.GitCardPage.getGiftCard(GitCardPage.java:19)
+	at com.mindtree.StepDefinations.GiftCardSD.click_on_the_gift_card_on_the_web_page(GiftCardSD.java:35)
+	at ?.Click on the Gift Card on the web page(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/09GiftCard.feature:6)
+</pre></div></td>
+<td>0</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Going to About Us section in the web page", "About US"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.AboutUsPage.getAboutMenu(AboutUsPage.java:19)
+	at com.mindtree.StepDefinations.AboutUsSD.click_on_the_about_us_from_he_footer_section(AboutUsSD.java:32)
+	at ?.Click on the About Us from he footer section(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/10AboutUs.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace426288284", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace426288284'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.AboutUsPage.getAboutMenu(AboutUsPage.java:19)
+	at com.mindtree.StepDefinations.AboutUsSD.click_on_the_about_us_from_he_footer_section(AboutUsSD.java:32)
+	at ?.Click on the About Us from he footer section(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/10AboutUs.feature:6)
+</pre></div></td>
+<td>0</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the Shop By Category Menu", "Explore Shop By Category Menu"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.ShopByCatagoryPage.getShopByCatagory(ShopByCatagoryPage.java:21)
+	at com.mindtree.StepDefinations.ShopByCatagorySD.click_on_the_shopbycategory(ShopByCatagorySD.java:39)
+	at ?.Click on the ShopByCategory(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/06ShopByCategory.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2080125222", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2080125222'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.ShopByCatagoryPage.getShopByCatagory(ShopByCatagoryPage.java:21)
+	at com.mindtree.StepDefinations.ShopByCatagorySD.click_on_the_shopbycategory(ShopByCatagorySD.java:39)
+	at ?.Click on the ShopByCategory(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/06ShopByCategory.feature:5)
+</pre></div></td>
+<td>0</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is Signing In With Multiple Cradentials", "Sign In"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.HomePage.getSignIn(HomePage.java:19)
+	at com.mindtree.StepDefinations.SignInSD.click_on_signin_button(SignInSD.java:33)
+	at ?.click on SignIn button(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/02SignIn.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1697281847", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1697281847'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.HomePage.getSignIn(HomePage.java:19)
+	at com.mindtree.StepDefinations.SignInSD.click_on_signin_button(SignInSD.java:33)
+	at ?.click on SignIn button(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/02SignIn.feature:5)
+</pre></div></td>
+<td>0</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+<tr>
+<td title='com.mindtree.runner.BigSmallTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.mindtree.runner.BigSmallTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the Personalized Gift Menu", "Persionalized Gift Menu"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.PersonalizedGiftPage.getPersionaizedGiftMenu(PersonalizedGiftPage.java:20)
+	at com.mindtree.StepDefinations.PersionalizedGiftSD.click_on_the_personalized_gift_menu(PersionalizedGiftSD.java:39)
+	at ?.Click on the Personalized Gift Menu(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/03PersonalizedGift.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace737104370", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace737104370'><pre>java.lang.NullPointerException
+	at com.mindtree.pageObjects.PersonalizedGiftPage.getPersionaizedGiftMenu(PersonalizedGiftPage.java:20)
+	at com.mindtree.StepDefinations.PersionalizedGiftSD.click_on_the_personalized_gift_menu(PersionalizedGiftSD.java:39)
+	at ?.Click on the Personalized Gift Menu(file:///M:/MindtreeWorkspace/ComprehensiveAssessmentCucumberFramework/features/03PersonalizedGift.feature:6)
+</pre></div></td>
+<td>11</td>
+<td>com.mindtree.runner.BigSmallTestRunner@67b467e9</td></tr>
+</table><p>
+</body>
+</html>

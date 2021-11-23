@@ -1,0 +1,25 @@
+2021-11-22 18:17:15,695  INFO [main] HomePageSD:29 - Browser has been luanched
+2021-11-22 18:17:44,375  INFO [main] HomePageSD:38 - url hited
+2021-11-22 18:17:56,525  INFO [main] SignInSD:34 - clicked on sign button
+2021-11-22 18:17:56,527  INFO [main] SignInSD:42 - going to send data
+2021-11-22 18:17:56,653  INFO [main] SignInSD:46 -  entered
+2021-11-22 18:17:56,768  INFO [main] SignInSD:49 -  entered
+2021-11-22 18:18:12,915  INFO [main] SignInSD:57 - clicked on summit button
+2021-11-22 18:18:22,921  INFO [main] SignInSD:34 - clicked on sign button
+2021-11-22 18:18:22,921  INFO [main] SignInSD:42 - going to send data
+2021-11-22 18:18:23,393  INFO [main] SignInSD:46 - defenceaspirants87@gmail.com entered
+2021-11-22 18:18:23,643  INFO [main] SignInSD:49 - banti#4321 entered
+2021-11-22 18:18:30,908  INFO [main] SignInSD:57 - clicked on summit button
+2021-11-22 18:18:35,333  INFO [main] SignInSD:34 - clicked on sign button
+2021-11-22 18:18:35,334  INFO [main] SignInSD:42 - going to send data
+2021-11-22 18:18:35,810  INFO [main] SignInSD:46 - vrushualate1008@gmail.com entered
+2021-11-22 18:18:36,001  INFO [main] SignInSD:49 - Vrush@123 entered
+2021-11-22 18:18:36,586  INFO [main] SignInSD:57 - clicked on summit button
+2021-11-22 18:19:28,892  INFO [main] PersionalizedGiftSD:40 - clicked on Persionaized Gift Menu
+2021-11-22 18:19:40,689  INFO [main] PersionalizedGiftSD:51 - clicked on sort by button
+2021-11-22 18:20:02,548  INFO [main] PersionalizedGiftSD:59 - clicked on how to low options
+2021-11-22 18:20:38,202  INFO [main] PersionalizedGiftSD:75 - persionalized gift menu's item selected
+2021-11-22 18:20:58,036  INFO [main] HomePageSD:45 - product name has been sent to search box
+2021-11-22 18:20:58,414  INFO [main] HomePageSD:54 - list appeared of searched product
+2021-11-22 18:21:12,781  INFO [main] HomePageSD:40 - clicked on christmas menu
+2021-11-22 18:21:37,223  INFO [main] HomePageSD:56 - christmas gift added in cart
